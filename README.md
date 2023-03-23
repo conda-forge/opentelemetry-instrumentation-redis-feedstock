@@ -1,11 +1,11 @@
-About opentelemetry-instrumentation-redis
-=========================================
+About opentelemetry-instrumentation-redis-feedstock
+===================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-redis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-redis
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-redis-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry Redis instrumentation
 
