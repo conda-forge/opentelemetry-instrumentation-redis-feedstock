@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-redis" %}
-{% set version = "0.46b0" %}
+{% set version = "0.47b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_redis-{{ version }}.tar.gz
-  sha256: 8b4639fe52edb6ccdc633c54c01630005ab63faeffd97754cddbf6bdc1f04c5e
+  sha256: 15886c725c7e3b6f706964bd72dbfcbefeeeaa1254e98f662516cfed453aaebe
 
 build:
   noarch: python
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation ==0.46b0
-    - opentelemetry-semantic-conventions ==0.46b0
+    - opentelemetry-instrumentation ==0.47b0
+    - opentelemetry-semantic-conventions ==0.47b0
     - wrapt >=1.12.1
     # - redis-py >=2.6
     # - opentelemetry-test-utils ==0.37b0
@@ -53,6 +53,7 @@ requirements:
     # - opentelemetry-test-utils ==0.43b0
     # - opentelemetry-sdk ~=1.3
     # - opentelemetry-instrumentation-redis 
+    # - redis-py >=2.6
     # - redis-py >=2.6
     # - redis-py >=2.6
 
